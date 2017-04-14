@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name HandyVGSPackagesLibrary)(type KiCad)(uri "$(KIPRJMOD)/HandyVGSPackagesLibrary.pretty")(options "")(descr ""))
+  (lib (name MF_Connectors)(type KiCad)(uri "$(KIPRJMOD)/macrofab_libs/Footprints/MF_Connectors.pretty")(options "")(descr ""))
+  (lib (name DerbyFX)(type KiCad)(uri "$(KIPRJMOD)/DerbyFX.pretty")(options "")(descr ""))
+  (lib (name MF_Switches)(type KiCad)(uri "$(KIPRJMOD)/macrofab_libs/Footprints/MF_Switches.pretty")(options "")(descr ""))
+)

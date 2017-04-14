@@ -1,0 +1,180 @@
+EESchema Schematic File Version 2
+LIBS:derbyFX-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:HandyVGS
+LIBS:HandyVGS-cache
+LIBS:MF_Aesthetics
+LIBS:MF_Connectors
+LIBS:MF_Discrete_Semiconductor
+LIBS:MF_Displays
+LIBS:MF_Frequency_Control
+LIBS:MF_IC_Analog
+LIBS:MF_IC_Digital
+LIBS:MF_IC_Power
+LIBS:MF_LEDs
+LIBS:MF_Passives
+LIBS:MF_Sensors
+LIBS:MF_Switches
+LIBS:derbyFX
+LIBS:Spartan6Dev
+LIBS:Mimas-cache
+LIBS:derbyFX-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 2990 2910 1235 2160
+U 58820797
+F0 "Sheet58820796" 60
+F1 "propeller.sch" 60
+F2 "+3V3" I L 2990 3010 60 
+F3 "SD_DO" I R 4225 3025 60 
+F4 "SD_DI" O R 4225 3130 60 
+F5 "SD_CLK" O R 4225 3240 60 
+F6 "SD_CS" O R 4225 3350 60 
+F7 "~AUD_SD" O R 4225 3535 60 
+F8 "AUD-" O R 4225 3635 60 
+F9 "AUD+" O R 4225 3740 60 
+F10 "SV_1" O R 4225 3890 60 
+F11 "SV_2" O R 4225 3995 60 
+F12 "ACC_CS" O R 4225 4160 60 
+F13 "ACC_CLK" O R 4225 4265 60 
+F14 "ACC_DI" O R 4225 4375 60 
+F15 "ACC_DO" I R 4225 4480 60 
+F16 "ACC_INT1" I R 4225 4590 60 
+F17 "ACC_INT2" I R 4225 4700 60 
+F18 "ACC_ADC1" I R 4225 4810 60 
+F19 "ACC_ADC2" I R 4225 4920 60 
+F20 "ACC_ADC3" I R 4225 5020 60 
+$EndSheet
+$Sheet
+S 3960 1490 1335 1015
+U 588423CE
+F0 "Sheet588423CD" 60
+F1 "charge.sch" 60
+F2 "+3V3" O L 3960 2310 60 
+F3 "+VBAT" O R 5295 2325 60 
+$EndSheet
+$Sheet
+S 5065 2895 1280 2175
+U 5884B0C1
+F0 "Sheet5884B0C0" 60
+F1 "accessories.sch" 60
+F2 "+3V3" I R 6345 3085 60 
+F3 "+VBAT" I R 6345 2990 60 
+F4 "SD_DO" O L 5065 3025 60 
+F5 "SD_DI" I L 5065 3130 60 
+F6 "SD_CLK" I L 5065 3240 60 
+F7 "SD_CS" I L 5065 3350 60 
+F8 "~AUD_SD" I L 5065 3535 60 
+F9 "AUD-" I L 5065 3635 60 
+F10 "AUD+" I L 5065 3740 60 
+F11 "SV_1" I L 5065 3890 60 
+F12 "SV_2" I L 5065 3995 60 
+F13 "ACC_CS" I L 5065 4160 60 
+F14 "ACC_CLK" I L 5065 4265 60 
+F15 "ACC_DI" I L 5065 4375 60 
+F16 "ACC_DO" O L 5065 4480 60 
+F17 "ACC_INT1" O L 5065 4590 60 
+F18 "ACC_INT2" O L 5065 4700 60 
+F19 "ACC_ADC1" O L 5065 4810 60 
+F20 "ACC_ADC2" O L 5065 4920 60 
+F21 "ACC_ADC3" O L 5065 5020 60 
+$EndSheet
+Wire Wire Line
+	2895 2710 6500 2710
+Wire Wire Line
+	3520 2710 3520 2310
+Wire Wire Line
+	3520 2310 3960 2310
+Wire Wire Line
+	2990 3010 2895 3010
+Wire Wire Line
+	2895 3010 2895 2710
+Connection ~ 3520 2710
+Wire Wire Line
+	6345 2990 6455 2990
+Wire Wire Line
+	6455 2990 6455 2325
+Wire Wire Line
+	6455 2325 5295 2325
+Wire Wire Line
+	6500 2710 6500 3085
+Wire Wire Line
+	6500 3085 6345 3085
+Wire Wire Line
+	5065 3025 4225 3025
+Wire Wire Line
+	5065 3130 4225 3130
+Wire Wire Line
+	4225 3240 5065 3240
+Wire Wire Line
+	4225 3350 5065 3350
+Wire Wire Line
+	4225 3535 5065 3535
+Wire Wire Line
+	4225 3635 5065 3635
+Wire Wire Line
+	4225 3740 5065 3740
+Wire Wire Line
+	4225 3890 5065 3890
+Wire Wire Line
+	4225 3995 5065 3995
+Wire Wire Line
+	4225 4160 5065 4160
+Wire Wire Line
+	4225 4265 5065 4265
+Wire Wire Line
+	4225 4375 5065 4375
+Wire Wire Line
+	4225 4480 5065 4480
+Wire Wire Line
+	4225 4590 5065 4590
+Wire Wire Line
+	4225 4700 5065 4700
+Wire Wire Line
+	4225 4810 5065 4810
+Wire Wire Line
+	4225 4920 5065 4920
+Wire Wire Line
+	4225 5020 5065 5020
+$EndSCHEMATC
